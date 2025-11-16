@@ -8,6 +8,8 @@ public class Regular extends Vehicles {
         this.passengers = passengers;
     }
 
+
+
     public int getPassengers() {
         return passengers;
     }
