@@ -18,6 +18,20 @@ public class Cart extends Light {
 
     @Override
     public String toString() {
-        return super.toString() + ", time: " + time;
+        return (super.toString() + ", time: " + time);
     }
+
+    @Override
+    public double exhaust() {
+        double pollution = super.exhaust();
+        return pollution * 100;
+    }
+
+    public void hitchhikers() {
+        System.out.println("The cart cant take hitchhikers :(");
+    }
+
+
 }
+
+

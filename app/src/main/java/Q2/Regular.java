@@ -32,5 +32,8 @@ public class Regular extends Vehicles {
         System.out.println(" car noise: Vroooommmmm");
     }
 
+    public void hitchhikers() {
+        System.out.println("The regular car can take hitchhikers if there is space in the car");
+    }
 
 }
