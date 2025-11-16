@@ -28,4 +28,9 @@ public class Regular extends Vehicles {
         return pollution + 100;
     }
 
+    public void noise() {
+        System.out.println(" car noise: Vroooommmmm");
+    }
+
+
 }
